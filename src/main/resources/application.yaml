@@ -15,12 +15,12 @@ spring:
         #     - Path=/google/**
 
         - id: account
-          uri: http://account:8080
+          uri: http://account:8084
           predicates:
             - Path=/account/**
 
         - id: auth
-          uri: http://auth:8080
+          uri: http://auth-service:8081
           predicates:
             - Path=/auth/**
 
